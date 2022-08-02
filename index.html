@@ -3,11 +3,234 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./js/index.min.js"></script>
+  
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap" rel="stylesheet">
+
+<script>
+  tailwind.config = {
+    theme: {
+      colors:{
+        'firetruck': '#C14041',
+      },
+      extend: {
+        fontFamily: {
+          'joti-one': ['"Joti One"', 'cursive'],
+          sans: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <nav
+    class="relative w-full flex flex-wrap items-center justify-between py-3 bg-firetruck text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light"
+  >
+    <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+      <button
+        class="navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="bars"
+          class="w-6"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
+          <path
+            fill="currentColor"
+            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+          ></path>
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse flex-grow items-center" id="navbarSupportedContent1">
+        <a class="text-xl text-white pr-2 font-semibold" href="index.html"><img src="images/logo.gif" alt="logo" style="width: 15rem;"></a>
+       
+        <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+          <li class="nav-item p-2">
+            <a class="nav-link text-white font-joti-one text-3xl" href="#">HOME</a>
+          </li>
+          <li class="nav-item p-2">
+            <a
+              class="nav-link text-white font-joti-one text-3xl"
+              href="#"
+              >ABOUT</a
+            >
+          </li>
+          <li class="nav-item p-2">
+            <a
+              class="nav-link text-white font-joti-one text-3xl"
+              href="#"
+              >VIDEOS</a
+            >
+          </li>
+          <li class="nav-item p-2">
+            <a
+              class="nav-link text-white font-joti-one text-3xl"
+              href="#"
+              >DISCOGRAPHY</a
+            >
+          </li>
+          <li class="nav-item p-2">
+            <a
+              class="nav-link text-white font-joti-one text-3xl"
+              href="#"
+              >TOUR</a
+            >
+          </li>
+        </ul>
+  </nav>
+  <hero>
+    <img src="images/tenacious-d.jpeg" class="max-w-full h-auto" alt="hero image" style: width="2000rem"/>
+  </hero>
+ <div class="header">
+  <h2 class="md:text-9xl leading-tight mb-4 pb-4 py-10 font-joti-one text-white text-center text-5xl">
+    THIS ISN'T A REAL SITE<br>
+    IT'S A TRIBUTE
+  </h2>
+</div>
+ <div class="header">
+  <h2 class="md:text-8xl text-4xl leading-tight mb-4 pb-4 md:py-10 font-joti-one text-white text-center">
+    NEWS
+  </h2>
+</div>
+ <div class="newstop md:flex md:justify-center">
+
+  <div class="flex justify-center p-6">
+    <div class="rounded-lg shadow-lg bg-transparent max-w-sm">
+      <a href="https://tenaciousd.com/news/pre-order-the-who-medley-7-now-supporting-everytown-for-gun-safety-8HGXF">
+        <img class="rounded-t-lg" src="images/news1.jpeg" alt=""/>
+      </a>
+      <div class="p-6">
+        <h5 class="text-white font-sans text-xl font-medium mb-2">Pre-Order The Who Medley 7" NOW Supporting Everytown For Gun Safety</h5>
+
+    
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center p-6">
+    <div class="rounded-lg shadow-lg bg-transparent max-w-sm">
+      <a href="https://tenaciousd.com/news/washington-update-its-goin-down-monday-june-20th-at-the-northern-quest-resort-amp-casino-in-airway-heights-wa">
+        <img class="rounded-t-lg" src="images/news2.jpeg" alt=""/>
+      </a>
+      <div class="p-6">
+        <h5 class="text-white font-sans text-xl font-medium mb-2">Washington Update! Monday, June 20th at the Northern Quest Resort and Casino in Airway Heights, WA is now SOLD OUT!</h5>
+
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center p-6">
+    <div class="rounded-lg shadow-lg bg-transparent max-w-sm">
+      <a href="https://tenaciousd.com/news/attention-d-ciples-september-leg-added-to-the-tournbsp">
+        <img class="rounded-t-lg" src="images/news3.jpeg" alt=""/>
+      </a>
+      <div class="p-6">
+        <h5 class="text-white font-sans text-xl font-medium mb-2">Attention D-ciples: September leg added to the tour!</h5>
+
+        
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="newsbottom md:flex md:justify-center">
+
+  <div class="flex justify-center p-6">
+    <div class="rounded-lg shadow-lg bg-transparent max-w-sm">
+      <a href="https://tenaciousd.com/news/just-announced-summer-2022-tour">
+        <img class="rounded-t-lg" src="images/news4.png" alt=""/>
+      </a>
+      <div class="p-6">
+        <h5 class="text-white font-sans text-xl font-medium mb-2">Just Announced: Summer 2022 Tour!!</h5>
+
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center p-6">
+    <div class="rounded-lg shadow-lg bg-transparent max-w-sm">
+      <a href="https://tenaciousd.com/news/tenacious-d-releases-new-single-you-never-give-me-your-money-the-end">
+        <img class="rounded-t-lg" src="images/news5.jpeg" alt=""/>
+      </a>
+      <div class="p-6">
+        <h5 class="text-white font-sans text-xl font-medium mb-2">Tenacious D Releases New Single! "You Never Give Me Your Money / The End"</h5>
+
+       
+      </div>
+    </div>
+  </div>
+
+  <div class="flex justify-center px-6 md:p-6">
+    <div class="rounded-lg shadow-lg bg-transparent max-w-sm">
+      <a href="https://tenaciousd.com/news/tenacious-d-announces-new-nft-drop-with-makersplace">
+        <img class="rounded-t-lg" src="images/news6.png" alt=""/>
+      </a>
+      <div class="p-6">
+        <h5 class="text-white font-sans text-xl font-medium mb-2">Tenacious D Announces New NFT Drop with Makersplace!</h5>
+
+        
+      </div>
+    </div>
+  </div>
+ </div>
+
+ </div>
+<div class="stream">
+  <div class="header">
+   <h2 class="md:text-8xl text-4xl leading-tight mb-4 pb-4 md:py-10 font-joti-one text-white text-center">
+      Stream On
+   </h2>
+  </div>
+  <div class="iconsstream flex justify-center">
+    <img class="md:w-20 w-10 mx-2 md:mx-10" src="images/itunes-note-brands.svg" alt="itunes logo" >
+    <img class="md:w-24 w-12 mx-2 md:mx-10" src="images/spotify-brands.svg" alt="spotify logo" >
+    <img class="md:w-24 w-12 mx-2 md:mx-10" src="images/youtube-brands.svg" alt="youtube logo" >
+    <img class="md:w-28 w-16 mx-2 md:mx-10" src="images/soundcloud-brands.svg" alt="soundcloud logo" >
+  </div>
+  <div class="header">
+    <h2 class="md:text-8xl text-4xl leading-tight mb-4 pb-4 md:py-10 font-joti-one text-white text-center">
+       Social Media
+    </h2>
+   </div>
+
+  <div class="iconssocials flex justify-center">
+    <img class="md:w-24 w-12 mx-2 md:mx-10" src="images/square-facebook-brands.svg" alt="facebook logo" >
+    <img class="md:w-24 w-12 mx-2 md:mx-10" src="images/square-twitter-brands.svg" alt="twitter logo" >
+    <img class="md:w-24 w-12 mx-2 md:mx-10" src="images/square-instagram-brands.svg" alt="instagram logo" >
+  
+  </div>
+  
+
+</div>
+
+<div class="font-joti-one justify-center text-sm">
+
+    Copyright Tenacious D 2022
+
+</div>
+
 </body>
 </html>
