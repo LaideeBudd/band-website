@@ -1,35 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./js/index.min.js"></script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./js/index.min.js"></script>
   
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-  <link href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap" rel="stylesheet">
-  
-  <script>
-    tailwind.config = {
-      theme: {
-        colors:{
-          'firetruck': '#C14041',
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap" rel="stylesheet">
+
+<script>
+  tailwind.config = {
+    theme: {
+      colors:{
+        'firetruck': '#C14041',
+      },
+      extend: {
+        fontFamily: {
+          'joti-one': ['"Joti One"', 'cursive'],
+          sans: ['Inter', 'sans-serif'],
         },
-        extend: {
-          fontFamily: {
-            'joti-one': ['"Joti One"', 'cursive'],
-            sans: ['Inter', 'sans-serif'],
-          },
-        }
       }
     }
-  </script>
+  }
+</script>
+
 </head>
 <body>
     <nav
@@ -98,5 +99,14 @@
           </li>
         </ul>
   </nav>
+  
+
+<br>
+<br>
+
+<div class="footerbottom">
+  <h5 class="flex justify-center align-center font-joti-one text-white text-xl md:text-3xl p-12">Copyright Tenacious D 2022</h5>
+</div>
+
 </body>
 </html>
